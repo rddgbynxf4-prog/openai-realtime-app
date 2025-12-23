@@ -1,0 +1,43 @@
+{
+  "name": "openai-realtime-app",
+  "version": "1.0.0",
+  "description": "OpenAI Realtime API App mit Voice Agent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node api/realtime.ts",
+    "build": "tsc",
+    "start": "node dist/api/realtime.js"
+  },
+  "keywords": ["openai", "realtime", "voice"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.3.1",
+    "@types/express": "^4.17.17"
+  }
+}
+```
+
+---
+
+### **`.env.local`** (Speichere mit deinem OpenAI Key!)
+```
+OPENAI_API_KEY=sk-proj-xxxxx_DEIN_KEY_HIER_xxxxx
+```
+
+---
+
+### **`.gitignore`**
+```
+node_modules/
+.env
+.env.local
+.DS_Store
+dist/
+*.log

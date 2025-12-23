@@ -1,0 +1,72 @@
+# OpenAI Realtime Voice Agent
+
+Eine Voice Chat Applikation mit OpenAI's Realtime API, gehostet auf Vercel.
+
+## Features
+
+- 🎤 Echtzeit Spracherkennung
+- 🤖 KI Antworten in Echtzeit
+- 🌐 Läuft direkt im Browser
+- ⚡ Schnelle Verarbeitung mit Vercel
+
+## Installation
+
+1. Clone das Repository:
+```bash
+git clone https://github.com/dein-username/penai-realtime-app.git
+cd penai-realtime-app
+```
+
+2. Installiere Abhängigkeiten:
+```bash
+npm install
+```
+
+3. Erstelle `.env.local`:
+```
+OPENAI_API_KEY=dein_openai_api_key
+```
+
+4. Starte die Entwicklungsserver:
+```bash
+npm run dev
+```
+
+5. Öffne http://localhost:3000
+
+## Deployment auf Vercel
+
+1. Push zu GitHub
+2. Verbinde Vercel mit deinem GitHub Repo
+3. Füge Umgebungsvariablen hinzu
+4. Deploy!
+
+## Lizenz
+
+MIT
+```
+
+---
+
+## **SCHRITT 2: Dateien lokal speichern**
+
+1. **Öffne deinen Mac Text-Editor** (TextEdit, VS Code, etc.)
+2. **Kopiere jeden Datei-Inhalt** von oben
+3. **Speichere jede Datei** mit dem richtigen Namen im Ordner:
+```
+   /Users/christianbock/Library/Mobile Documents/com~apple~CloudDocs/Schule/! 2024:20225/Mathe KI App/MaBoLino/Hauptmenu/tutor/
+```
+
+**Ordnerstruktur erstellen:**
+```
+tutor/
+├── package.json          ← speichere hier
+├── .env.local            ← speichere hier
+├── .gitignore            ← speichere hier
+├── vercel.json           ← speichere hier
+├── README.md             ← speichere hier
+├── api/
+│   └── realtime.ts       ← neuer Ordner "api", dann Datei
+└── public/
+    ├── index.html        ← neuer Ordner "public", dann Dateien
+    └── app.js
